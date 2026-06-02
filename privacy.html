@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — ClipStream</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --purple: #9146FF; --dark: #0d0d12; --card: #16161e; --border: #2a2a3a; --text: #e8e8f0; --muted: #9090a8; }
+    body { background: var(--dark); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+    a { color: var(--purple); }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
+    .logo { font-size: 1.4rem; font-weight: 800; background: linear-gradient(135deg, #9146FF, #FF0050); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .nav-links a { margin-left: 1.2rem; color: var(--muted); font-size: 0.9rem; text-decoration: none; }
+    .nav-links a:hover { color: var(--text); }
+    .container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+    h1 { font-size: 2.2rem; font-weight: 900; margin-bottom: 0.4rem; }
+    .effective { color: var(--muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.3rem; font-weight: 800; margin: 2.5rem 0 0.8rem; color: #fff; }
+    h3 { font-size: 1.05rem; font-weight: 700; margin: 1.5rem 0 0.5rem; color: #ddd; }
+    p { color: var(--muted); margin-bottom: 1rem; }
+    ul, ol { color: var(--muted); margin: 0.5rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    .callout { background: var(--card); border: 1px solid var(--border); border-left: 3px solid var(--purple); border-radius: 6px; padding: 1rem 1.2rem; margin: 1.5rem 0; color: var(--muted); font-size: 0.95rem; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.88rem; }
+    footer a { color: var(--muted); margin: 0 0.5rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">ClipStream</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="tos.html">Terms</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Privacy Policy</h1>
+  <p class="effective"><strong>Effective Date:</strong> June 1, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> June 1, 2026</p>
+
+  <div class="callout">This Privacy Policy describes how ClipStream ("we," "our," or "us") collects, uses, stores, and shares information when you use our service at clipstream.app (the "Service"). By using ClipStream, you agree to the practices described in this policy.</div>
+
+  <h2>1. Who We Are</h2>
+  <p>ClipStream is a multi-user platform that helps Twitch streamers automatically discover top clips, reformat them as vertical 9:16 video, generate AI-powered captions and hashtags, and post them directly to TikTok via the official TikTok Content Posting API. The Service is open to any Twitch streamer who wishes to grow their presence on TikTok.</p>
+  <p>For privacy questions or requests, contact us at: <a href="mailto:support@clipstream.app">support@clipstream.app</a></p>
+
+  <h2>2. Information We Collect</h2>
+
+  <h3>2.1 Account and Identity Information</h3>
+  <p>When you create an account or connect a third-party service, we collect:</p>
+  <ul>
+    <li>Your email address (used for account management and communications)</li>
+    <li>Username and display name from connected platforms (Twitch, TikTok)</li>
+    <li>Profile image URLs from connected platforms</li>
+    <li>Platform-specific user IDs assigned by Twitch and TikTok</li>
+  </ul>
+
+  <h3>2.2 OAuth Access Tokens</h3>
+  <p>To connect your Twitch and TikTok accounts, we use the official OAuth 2.0 authorization flows provided by each platform. We store the resulting access tokens and refresh tokens in encrypted form. These tokens allow us to:</p>
+  <ul>
+    <li><strong>Twitch OAuth tokens:</strong> Read your public channel data, retrieve your clips via the Twitch Clips API, and access clip metadata such as view counts, duration, creation timestamps, and game titles.</li>
+    <li><strong>TikTok OAuth tokens:</strong> Post video content on your behalf using the TikTok Content Posting API, and access basic account information needed to confirm posting success.</li>
+  </ul>
+  <p>We do not store your Twitch or TikTok passwords. Tokens are stored with AES-256 encryption and are used only for the purposes described above.</p>
+
+  <h3>2.3 Clip Metadata and Content</h3>
+  <p>When ClipStream processes your Twitch clips, we collect and temporarily store:</p>
+  <ul>
+    <li>Clip titles, URLs, thumbnail URLs, and embed URLs provided by Twitch</li>
+    <li>View counts, clip duration, broadcaster name, game or category name</li>
+    <li>Clip creation timestamps</li>
+    <li>Temporary copies of clip video files during reformatting and processing (see Data Retention for how long these are kept)</li>
+    <li>AI-generated captions and hashtags associated with each clip</li>
+    <li>Posting history: which clips were posted to TikTok, when, and the resulting TikTok post ID</li>
+  </ul>
+
+  <h3>2.4 Usage Analytics</h3>
+  <p>We collect analytics data to understand how the Service is used and to improve it. This includes:</p>
+  <ul>
+    <li>Pages visited and features used within the ClipStream dashboard</li>
+    <li>Actions taken (e.g., clips queued, posts scheduled, posts published)</li>
+    <li>Browser type, operating system, and device category</li>
+    <li>IP address (used for security, rate limiting, and approximate geographic location at the country/region level)</li>
+    <li>Session duration and navigation patterns</li>
+    <li>Error logs and performance metrics</li>
+  </ul>
+  <p>Usage analytics are associated with your account for service improvement purposes. We do not sell analytics data.</p>
+
+  <h3>2.5 Technical and Log Data</h3>
+  <p>Our servers automatically collect log data when you access the Service, including your IP address, request timestamps, HTTP status codes, and referral URLs. This data is used for security monitoring, abuse prevention, and debugging.</p>
+
+  <h3>2.6 Communications</h3>
+  <p>If you contact us via email or a support channel, we retain the content of your communications and your contact information to respond to your inquiry and maintain a record of our interactions.</p>
+
+  <h2>3. How We Use Your Information</h2>
+  <p>We use the information we collect for the following purposes:</p>
+  <ul>
+    <li><strong>Providing the Service:</strong> Authenticating your account, retrieving clips from Twitch, processing and reformatting video, generating AI captions and hashtags, and posting content to TikTok on your behalf.</li>
+    <li><strong>Account Management:</strong> Creating and managing your account, sending transactional emails (e.g., confirmation of successful posts, error notifications, account security alerts).</li>
+    <li><strong>Service Improvement:</strong> Analyzing usage patterns to identify bugs, improve features, and prioritize development work.</li>
+    <li><strong>Security and Fraud Prevention:</strong> Detecting abuse, enforcing rate limits, monitoring for unauthorized access, and protecting other users of the platform.</li>
+    <li><strong>Customer Support:</strong> Responding to your requests and troubleshooting issues.</li>
+    <li><strong>Legal Compliance:</strong> Complying with applicable laws, regulations, and valid legal process.</li>
+  </ul>
+  <p>We do not use your data to train machine learning models for any purpose other than generating captions and hashtags for your own clips. We do not sell your personal information to third parties.</p>
+
+  <h2>4. Legal Basis for Processing (EEA/UK Users)</h2>
+  <p>If you are located in the European Economic Area or the United Kingdom, our legal basis for processing your personal data is:</p>
+  <ul>
+    <li><strong>Contractual necessity:</strong> Processing your OAuth tokens, clip metadata, and account information is necessary to provide the Service you requested.</li>
+    <li><strong>Legitimate interests:</strong> Usage analytics and security monitoring are processed on the basis of our legitimate interest in operating, securing, and improving the Service.</li>
+    <li><strong>Legal obligation:</strong> Retaining certain records as required by applicable law.</li>
+    <li><strong>Consent:</strong> Where we rely on consent (e.g., marketing emails), you may withdraw it at any time.</li>
+  </ul>
+
+  <h2>5. Third-Party Services</h2>
+
+  <h3>5.1 Twitch API</h3>
+  <p>ClipStream integrates with the Twitch API to retrieve clip data from your channel. By connecting your Twitch account, you authorize ClipStream to access your clips on your behalf within the scope of permissions you grant during the OAuth flow. Your use of Twitch is also governed by <a href="https://www.twitch.tv/p/legal/privacy-notice/" target="_blank">Twitch's Privacy Notice</a>.</p>
+
+  <h3>5.2 TikTok Content Posting API</h3>
+  <p>ClipStream uses the official TikTok Content Posting API to post videos to your TikTok account on your behalf. By connecting your TikTok account, you authorize this posting. Your use of TikTok is also governed by <a href="https://www.tiktok.com/legal/page/us/privacy-policy/en" target="_blank">TikTok's Privacy Policy</a>. ClipStream does not receive access to your TikTok followers, private messages, or data beyond what is necessary to confirm posting success.</p>
+
+  <h3>5.3 Cloud Infrastructure</h3>
+  <p>We use third-party cloud providers (such as Amazon Web Services or equivalent) to host the Service, store data, and process video. These providers process data on our behalf under contractual data processing agreements and are not permitted to use your data for their own purposes.</p>
+
+  <h3>5.4 Analytics</h3>
+  <p>We may use privacy-respecting analytics tools to understand Service usage. Where third-party analytics tools are used, they are configured to minimize data collection and do not receive personally identifiable information beyond what is strictly necessary.</p>
+
+  <h3>5.5 No Data Brokers or Advertising Networks</h3>
+  <p>We do not share your data with data brokers, advertising networks, or any third party for the purpose of targeted advertising.</p>
+
+  <h2>6. Data Retention</h2>
+  <p>We retain your data for as long as your account is active or as needed to provide the Service, with the following specifics:</p>
+  <ul>
+    <li><strong>OAuth tokens:</strong> Retained while your account is active and the connection is enabled. Deleted within 30 days of account deletion or disconnection of the relevant platform.</li>
+    <li><strong>Clip video files:</strong> Temporary video files created during processing are deleted within 24 hours of the clip being posted to TikTok or discarded. We do not maintain a permanent video archive.</li>
+    <li><strong>Clip metadata and posting history:</strong> Retained for the lifetime of your account to support analytics and history features, and deleted within 60 days of account deletion.</li>
+    <li><strong>Usage analytics:</strong> Retained in aggregated or pseudonymized form for up to 24 months. Raw event logs are retained for 90 days.</li>
+    <li><strong>Account information:</strong> Retained for the lifetime of your account and deleted within 60 days of a verified account deletion request, except where retention is required by law.</li>
+    <li><strong>Server logs:</strong> Retained for 90 days for security and debugging purposes.</li>
+  </ul>
+
+  <h2>7. Data Security</h2>
+  <p>We implement industry-standard security measures to protect your information, including:</p>
+  <ul>
+    <li>AES-256 encryption for stored OAuth tokens and sensitive credentials</li>
+    <li>TLS encryption for all data in transit</li>
+    <li>Role-based access controls limiting employee access to personal data</li>
+    <li>Regular security reviews and dependency auditing</li>
+    <li>Incident response procedures for potential data breaches</li>
+  </ul>
+  <p>No method of transmission or storage is 100% secure. In the event of a data breach that affects your personal information, we will notify you as required by applicable law.</p>
+
+  <h2>8. Your Rights</h2>
+  <p>Depending on your location, you may have the following rights with respect to your personal data:</p>
+  <ul>
+    <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+    <li><strong>Correction:</strong> Request that we correct inaccurate or incomplete data.</li>
+    <li><strong>Deletion:</strong> Request deletion of your personal data ("right to be forgotten"). You may delete your account at any time from your account settings, which will trigger deletion of your data in accordance with the retention periods above.</li>
+    <li><strong>Portability:</strong> Request an export of your data in a machine-readable format.</li>
+    <li><strong>Objection:</strong> Object to processing based on legitimate interests.</li>
+    <li><strong>Restriction:</strong> Request that we restrict processing of your data in certain circumstances.</li>
+    <li><strong>Withdraw Consent:</strong> Where processing is based on consent, withdraw that consent at any time.</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at <a href="mailto:support@clipstream.app">support@clipstream.app</a>. We will respond within 30 days (or as required by applicable law). We may ask you to verify your identity before fulfilling certain requests.</p>
+
+  <h2>9. Cookies and Tracking</h2>
+  <p>ClipStream uses cookies and similar technologies for the following purposes:</p>
+  <ul>
+    <li><strong>Essential cookies:</strong> Required for the Service to function (e.g., session management, authentication). These cannot be disabled.</li>
+    <li><strong>Analytics cookies:</strong> Used to understand how users interact with the Service. You may opt out of non-essential cookies through your browser settings or our cookie preference center.</li>
+  </ul>
+  <p>We do not use cookies for advertising or cross-site tracking.</p>
+
+  <h2>10. Children's Privacy</h2>
+  <p>The Service is not directed at children under the age of 13 (or 16 in the EEA). We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us at <a href="mailto:support@clipstream.app">support@clipstream.app</a> and we will delete it promptly.</p>
+
+  <h2>11. International Data Transfers</h2>
+  <p>ClipStream is operated from the United States. If you are located outside the United States, your information will be transferred to and processed in the United States, where data protection laws may differ from those in your country. Where required by law (e.g., for EEA users), we rely on Standard Contractual Clauses or other approved transfer mechanisms.</p>
+
+  <h2>12. Third-Party Links</h2>
+  <p>The Service may contain links to third-party websites (such as Twitch and TikTok). We are not responsible for the privacy practices of those sites and encourage you to review their privacy policies.</p>
+
+  <h2>13. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. When we make material changes, we will notify you by email or through a prominent notice in the Service at least 14 days before the changes take effect. Your continued use of the Service after the effective date constitutes acceptance of the updated policy. The current version will always be available at this URL.</p>
+
+  <h2>14. Contact Us</h2>
+  <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+  <ul>
+    <li>Email: <a href="mailto:support@clipstream.app">support@clipstream.app</a></li>
+    <li>Subject line: "Privacy Request — [your name or username]"</li>
+  </ul>
+  <p>We aim to respond to all privacy-related inquiries within 5 business days.</p>
+</div>
+
+<footer>
+  <a href="index.html">Home</a>
+  <a href="tos.html">Terms of Service</a>
+  <a href="mailto:support@clipstream.app">support@clipstream.app</a>
+  <div style="margin-top:0.5rem">&copy; 2026 ClipStream. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
